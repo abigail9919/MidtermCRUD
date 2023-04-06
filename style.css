@@ -1,0 +1,55 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #F5DFBB;
+}
+
+header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.options {
+    text-align: center;
+}
+
+input, button {
+    position: relative;
+    left: 42%;
+}
+
+.wrapper {
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.menu {
+    width: 350px;
+    height: auto;
+    border: 2px groove #562C2C;
+    list-style: "images/beans.png";
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+.menu li {
+    padding: 8px;
+}
+
+.imageHolder {
+    width: auto;
+    height: auto;
+}
+
+.description {
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+}
